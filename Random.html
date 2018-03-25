@@ -1,0 +1,55 @@
+<!DOCTYPE><html>
+<head>
+	<title>Random Memes</title>
+	<link href="memes.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  	
+  		<div id="header">
+    <!--An H1 header-->
+				<h1><center>Don't know what meme you're in the mood for?</center></h1>
+				<h2><center>We hope you enjoy using our random meme generator!</center><h2>
+  		</div>
+
+	<div id="nav">
+		<ul style ="list-style-type:none">
+		<center>
+			<a href="Memes.html">Home</a>
+			<a href="Dramatic.html">Dramatic</a>
+  			<a href="Poor.html">Poor</a>
+  			<a href="Stressed.html">Stressed</a>
+  	  		<a href="Wholesome.html">Wholesome</a>
+  	  		<a href="Compsci.html">Compsci</a>
+  	  		<a href="Punny.html">Punny</a>
+			<a href="Random.html">Random</a>
+		</center>
+	</div>
+	
+
+</ul>
+	<div id="container">
+		<div style ="text-align: center;">
+		<br>
+		<img name="someimage" src="">
+	</body>
+		<script> 
+			var aryimages = new Array('images/compsci1.jpg', 'images/compsci2.jpg', 'images/compsci3.jpg', 'images/compsci4.jpeg', 'images/compsci5.jpeg', 'images/compsci6.jpeg', 'images/dramatic1.jpg', 'images/dramatic2.jpg', 'images/dramatic3jpg.jpg', 'images/dramatic4.jpg', 'images/dramatic5.jpg', 'images/poor1.jpg', 'images/poor2.jpg', 'images/poor3.jpg', 'images/poor4.jpg', 'images/poor5.jpg', 'images/poor6.jpg', 'images/poor7.jpg', 'images/punny2.jpg', 'images/punny3.jpeg', 'images/punny4.jpg', 'images/punny5.jpg','images/stressed1.jpg', 'images/Stressed2.png', 'images/stressed3.jpeg', 'images/stressed4.jpg', 'images/stressed5.png', 'images/stressed6.jpg', 'images/stressed7.jpg', 'images/stress8.jpg', 'images/wholesome1.png', 'images/wholesome2.png', 'images/wholesome3.png', 'images/wholesome4.jpg');
+			someimage.src = aryimages[Math.floor(Math.random() * aryimages.length)];
+			</script>
+			<br>
+			<button onclick="myFunction()">Click to see a different meme</button>
+
+			<script>
+				function myFunction() {
+    				location.reload();
+}
+	</script>
+	</div>
+
+<div id="footer">
+				<h5> <center>Refresh the page to see a different meme!</center></h5>
+				<br>
+				</div> <!-- Closes #footer div -->
+</html>
+
+
